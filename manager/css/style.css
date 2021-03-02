@@ -1,0 +1,38 @@
+html,
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("/img/architecture-3121009_1920.jpg");
+    background-position: center;
+}
+h1{
+    padding: 2% 0;
+    color: rgb(238, 173, 113);
+}
+i{
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.color-label{
+    color: white;
+}
+.control{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content{
+    display: flex;
+    border: 3px solid rgb(181, 182, 182);
+    padding: 1.2rem;
+    background-color: #e2c0a481;
+    border-radius: 1rem;
+}
+#list{
+    flex: 4;
+
+}
+#capture{
+    flex: 3;
+}
